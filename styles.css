@@ -34,6 +34,7 @@ img {
 .header {
     background-color: #1f2937;
     color: #f9faf8;
+    padding: 16px 48px 60px;
 }
 
 .navbar {
@@ -47,7 +48,7 @@ img {
 }
 
 .info {
-    padding: 60px 0px;
+    padding-top: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,6 +65,7 @@ img {
 .info .about {
     font-size: 18px;
     margin-bottom: 16px;
+    font-style: italic;
 }
 
 button {
@@ -76,6 +78,7 @@ button {
     text-decoration: none;
     color: #f9faf8;
     cursor: pointer;
+    font-weight: bolder;
 }
 
 .watch-button:hover {
