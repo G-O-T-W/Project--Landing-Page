@@ -1,3 +1,4 @@
+/* base styling */
 * {
     margin: 0px;
     padding: 0px;
@@ -26,10 +27,11 @@ a:hover {
 }
 
 img {
-    height: 250px;
+    height: 260px;
     width: auto;
 }
 
+/*header styles*/
 .header {
     background-color: #1f2937;
     color: #f9faf8;
@@ -62,11 +64,13 @@ img {
     font-size: 48px;
     font-weight: bolder;
     line-height: 0.9;
+    margin-bottom: 16px;
 }
 
 .info .about {
     font-size: 18px;
     font-style: italic;
+    margin-bottom: 16px;
 }
 
 button {
@@ -86,3 +90,5 @@ button {
     background-color: #f9faf8;
     color: #3882f6;
 }
+
+
