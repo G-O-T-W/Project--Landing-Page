@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #aaabac;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
