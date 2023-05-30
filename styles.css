@@ -82,7 +82,7 @@ button {
     font-size: 18px;
     border: none;
     border-radius: 10px;
-    padding: 16px 32px;
+    padding: 8px 16px;
     text-align: center;
     text-decoration: none;
     color: #f9faf8;
@@ -90,7 +90,7 @@ button {
     font-weight: bolder;
 }
 
-.watch-button:hover {
+button:hover {
     background-color: #f9faf8;
     color: #3882f6;
 }
@@ -155,4 +155,35 @@ button {
     font-weight: bolder;
 }
 
+/* Call Bubble */
 
+.call-section {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.call-bubble {
+    max-width: 1100px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    padding: 48px 96px;
+    color: #f9faf8;
+    display: flex;
+    gap: 32px;
+}
+
+.subscribe-button{
+    border: 2px solid white;
+}
+
+.newsletter-info h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.newsletter-info p {
+    font-size: 18px;
+    font-weight: lighter;
+}
