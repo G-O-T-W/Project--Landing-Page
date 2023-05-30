@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100vh;
 }
 
 ul {
@@ -25,6 +26,13 @@ a:hover {
     color: #aaabac;
 }
 
+img {
+    height: 25vh;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
 .header {
     background-color: #1f2937;
     color: #f9faf8;
@@ -34,4 +42,12 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.info {
+    padding: 60px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 
 }
