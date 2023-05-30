@@ -177,6 +177,7 @@ button:hover {
 
 .subscribe-button{
     border: 2px solid white;
+    align-self: center;
 }
 
 .newsletter-info h3{
